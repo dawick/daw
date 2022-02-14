@@ -5,8 +5,22 @@
 <link rel="stylesheet" href="">
 <style>
 
+
 body {margin: 50px;}
 img {height: 400px;}
+
+article::after{
+      content: "";
+      display: block;
+      position: inherit;
+        bottom: 25px;
+        left: 0;
+      width: 100%;
+      max-width: 650px;
+      height: 2px;
+      background-color: #ccc9c9;
+    }
+
 blockquote {
 	padding: 0 0 0 30px;
   color: #000;
@@ -20,21 +34,39 @@ blockquote {
 
 
 <article>
+	<h2>Sunday, February 13, 2022</h2>
+	<div class="albums">
+		<p>Mary Lattimore, Office Hours Live Super Bowl Performance</p>
+		<p>Dave Holland, Ones All</p>
+		<p>Chick Corea, A.R.C.</p>
+		<p>Telefon Tel Aviv, "a younger version of myself"</p>
+		<p>Ben Monder, Day After Day, "Emily"</p>
+		<p>Jan Garbarek, "Sart"</p>
+	</div>
+</article>
+
+
+<article>
 	<h2>Saturday, February 12, 2022</h2>
 
 <div>
-	<h3>Interview with Miller S. Puckette, creator of Max/MSP and Pure Data (Pd)</h3>
+	<h3>Interview with Miller S. Puckette, creator of <a href="https://cycling74.com/products/max">Max/MSP</a> and <a href="https://puredata.info/">Pure Data (Pd)</a></h3>
 	<p>Future of Coding Podcast.  May 12, 2020.  </p>
 	<p>Takeaways:</p>
 
 <ul>
-	<li>Max was named after Max Matthews and his computer music innovation of real-time scheduling.  Computer music prior, like CSound, GROOVE, etc., were more "compositional" in nature: you would work out everything in advance and then run the program.  Max was designed to be an instrument in itself that can perform and respond in real-time.</li>
+	<li>Max was named after Max Matthews and his computer music innovation of real-time scheduling.  Computer music systems prior, like CSound, GROOVE, etc., were more "compositional" in nature: you would work out everything in advance and then run the program.  Max was designed to be an instrument onto itself that can perform and respond in real-time.</li>
 	<li>MSP, commmonly referred to as "Max Signal Processing" is also Miller S. Puckette's initials.</li>
 	<li>The graphical patching environment was a practical development of his ideas.  He did not set out to create something "user friendly".  In fact, he thinks Pd could benefit from including a text language component.</li>
-	<li>He left Max/MSP/Cycling '74 in the late 1990's to stay in academia.  Pd was designed from the ground up, yet is nearly identical to Max.</li>
-	<li>Aesthetically, prefers to keep Pd as <a href="miller.mp3">bare-bones as possible</a>.  He finds visual decorations to be a distraction in pursuit of sound, and attributes this to his background in mathematics.</li>
-	
+	<li>He left Max/MSP/Cycling74 in the late 1990's to stay in academia.  Pd was designed from the ground up, yet is nearly identical to Max.</li>
+	<li>Aesthetically, prefers to keep Pd as <a href="miller.mp3">bare-bones as possible</a>.  He finds visual decorations to be a distraction ("eye candy"), and attributes this to his background in mathematics.*</li>
 </ul>
+
+<p>I'm guessing that he is comparing Pd to the visual presentation of modern day Max/MSP.  I think he might have a point there.  Perusing the Max for Live patches in Ableton (plug-in's designed in Max for use within Ableton Live), I notice that a large chunk of the code is dedicated to the visuals.  Max is very slick and fancy these days.  The patch cables are nice and curvy, and wiggle around when you connect them.  It's all very colorful and aesthetically appealing in a way that might feel dated a few years from now.</p>
+
+<p>Honestly, Max has sort of lost its charm for me in recent years, since I updated from Max 5 after Apple dropped its support for 32-bit.  Max 8 feels like a high-end, high-level software akin to the Adobe Creative Suite, and less of a low-level programming language.  They are also pushing the high-level modules (Max for Live, BEAP, Vizzie, etc.) as a way to entice beginners and non-programmers.  It feels more like a designer plug-in suite for Ableton more than anything.</p>
+
+<p>Pure data, on the other hand, still maintained by Miller Puckette, has absolutely stuck to their roots with the minimalist design (or lack of design).  Black and white, straight lines, rectangular boxes, no frills or animation.  I was worried that Pd had become abandonware on account of it’s decade-out-of-date website.  However, the most interesting thing happening in the Pd world is Critter & Guitari’s Organelle.  It’s a Raspberry Pi device/mini-computer built specifically to run Pd patches.  A dedicated music computer that’s totally open-source and customizable.</p>
 
 </div>
 </article>
